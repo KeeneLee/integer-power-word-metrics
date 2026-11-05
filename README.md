@@ -18,7 +18,7 @@ The proof uses relative Hamming recoding that preserves two distinguished symbol
 
 ## Files
 
-- [report.pdf](report.pdf): English mathematical report, revised November 4, 2026 ([LaTeX source](report.tex)), including references and proof details.
+- [report.pdf](report.pdf): English mathematical report, revised November 4, 2026, including references and proof details.
 - [lean/Nathanson/Main.lean](lean/Nathanson/Main.lean): final theorems `all_bases_bilipschitz`, `all_bases_metric_bilipschitz`, and `two_three_bilipschitz`.
 - [lean/](lean/): all 14 proof modules, pinned dependencies, and the [original successful build log](lean/build.log).
 - [LICENSE](LICENSE): MIT License.
