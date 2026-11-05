@@ -1,0 +1,91 @@
+ℹ [1583/1612] Built Nathanson.Matching (9.8s)
+info: Nathanson/Matching.lean:162:0: 'Nathanson.exists_injective_nat_of_infinite_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Matching.lean:163:0: 'Nathanson.exists_injective_of_infinite_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Matching.lean:164:0: 'Nathanson.exists_equiv_of_infinite_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Matching.lean:165:0: 'Nathanson.exists_injective_of_infinite_fibers_fix' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Matching.lean:166:0: 'Nathanson.exists_equiv_of_infinite_fibers_fix' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [2560/2578] Built Nathanson.Absorption (11s)
+info: Nathanson/Absorption.lean:95:0: 'Nathanson.infinite_oneCoordinateClose' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Absorption.lean:96:0: 'Nathanson.exists_absorption_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3001/3013] Built Nathanson.Blocks (13s)
+info: Nathanson/Blocks.lean:309:0: 'Nathanson.maskedAbsorb' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Blocks.lean:310:0: 'Nathanson.maskedAbsorb_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Blocks.lean:311:0: 'Nathanson.maskedAbsorb_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Blocks.lean:312:0: 'Nathanson.maskedAbsorb_symm_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3002/3013] Built Nathanson.WordMetric (13s)
+info: Nathanson/WordMetric.lean:294:0: 'Nathanson.wordLength_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/WordMetric.lean:295:0: 'Nathanson.wordDist_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/WordMetric.lean:296:0: 'Nathanson.wordDist_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/WordMetric.lean:297:0: 'Nathanson.wordDist_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/WordMetric.lean:298:0: 'Nathanson.wordLength_finsupp_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/WordMetric.lean:299:0: 'Nathanson.wordDist_le_of_pow_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/WordMetric.lean:300:0: 'Nathanson.wordDist_le_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/WordMetric.lean:301:0: 'Nathanson.wordDist_square_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3003/3013] Built Nathanson.Digits (13s)
+info: Nathanson/Digits.lean:366:0: 'Nathanson.decode_bijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Digits.lean:367:0: 'Nathanson.digitEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Digits.lean:368:0: 'Nathanson.digit_carry' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3004/3013] Built Nathanson.Hamming (17s)
+warning: Nathanson/Hamming.lean:108:86: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Nathanson/Hamming.lean:108:86: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Nathanson/Hamming.lean:108:86: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Nathanson/Hamming.lean:108:86: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Nathanson/Hamming.lean:108:86: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Nathanson/Hamming.lean:108:86: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Nathanson/Hamming.lean:108:86: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: Nathanson/Hamming.lean:108:86: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+ℹ [3005/3013] Built Nathanson.MetricModel (11s)
+info: Nathanson/MetricModel.lean:85:0: 'Nathanson.PowerInt.metricSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/MetricModel.lean:86:0: 'Nathanson.metric_bilipschitz_of_wordBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3006/3013] Built Nathanson.MaskModel (17s)
+info: Nathanson/MaskModel.lean:188:0: 'Nathanson.maskEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/MaskModel.lean:189:0: 'Nathanson.frozenSet_maskJoin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/MaskModel.lean:190:0: 'Nathanson.edits_maskJoin_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/MaskModel.lean:191:0: 'Nathanson.flipAt_maskJoin' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [3007/3013] Built Nathanson.AbstractControl (17s)
+warning: Nathanson/AbstractControl.lean:42:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: Nathanson/AbstractControl.lean:143:0: 'Nathanson.forward_seven' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/AbstractControl.lean:144:0: 'Nathanson.inverse_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3008/3013] Built Nathanson.CarryTransfer (18s)
+info: Nathanson/CarryTransfer.lean:322:0: 'Nathanson.digitWordEquivR' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/CarryTransfer.lean:323:0: 'Nathanson.word_carry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/CarryTransfer.lean:324:0: 'Nathanson.relative_integer_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3009/3013] Built Nathanson.Composition (15s)
+info: Nathanson/Composition.lean:97:0: 'Nathanson.relativeFromAbsorptions' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3010/3013] Built Nathanson.IntegerComparison (15s)
+info: Nathanson/IntegerComparison.lean:55:0: 'Nathanson.integer_equiv_of_squared_relative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/IntegerComparison.lean:56:0: 'Nathanson.metric_equiv_of_squared_relative' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3011/3013] Built Nathanson.Relative (13s)
+info: Nathanson/Relative.lean:306:0: 'Nathanson.maskedAbsorb_forward_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Relative.lean:307:0: 'Nathanson.maskedAbsorb_inverse_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Relative.lean:308:0: 'Nathanson.relativeAbsorption' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [3012/3013] Built Nathanson.Main (13s)
+info: Nathanson/Main.lean:57:0: 'Nathanson.relativeEquiv35' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Main.lean:58:0: 'Nathanson.all_bases_bilipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Main.lean:59:0: 'Nathanson.all_bases_metric_bilipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Main.lean:60:0: 'Nathanson.prime_bases_metric_bilipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Main.lean:61:0: 'Nathanson.two_three_bilipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Nathanson/Main.lean:62:0: 'Nathanson.two_three_metric_bilipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3013 jobs).
